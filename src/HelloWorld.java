@@ -6,6 +6,9 @@ public class HelloWorld {
         Scanner scnr = new Scanner(System.in);
         System.out.println("Give me your name.");
         String name = scnr.next();
+        while (name.equals("Bill")){
+            name = scnr.next();
+        }
 
     }
 }
