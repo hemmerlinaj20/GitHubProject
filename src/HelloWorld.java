@@ -9,10 +9,12 @@ public class HelloWorld {
         Scanner scnr = new Scanner(System.in);
         String name = scnr.next();
         while (name.equals("Bill")){
+            System.out.println("Your name cannot be Bill");
             name = scnr.next();
         }
 
         System.out.println("Your name is: " + name);
+
 
     }
 }
