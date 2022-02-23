@@ -8,6 +8,9 @@ public class HelloWorld {
         System.out.println("Give me your name.");
         Scanner scnr = new Scanner(System.in);
         String name = scnr.next();
+        while (name.equals("Bill")){
+            name = scnr.next();
+        }
 
         System.out.println("Your name is: " + name);
 
